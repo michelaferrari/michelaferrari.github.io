@@ -1,42 +1,38 @@
-body{
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	color:#222;
+	font-family: Avenir;
+	font-size:20px;
+}
+nav {
+    float: right;
+    width: 100%;
+    text-align: center;
+}
+#intro{
 	text-align: center;
-	background: url("https://static.pexels.com/photos/463252/pexels-photo-463252.jpeg");
+	background: url(../images/flowers.jpg);
 	background-size: cover;
 	color: #fff;
-	font-family: Avenir;
-	padding-right: 100px;
-	padding-left: 100px;
-	padding-top: 50px;
+	padding: 10em 0 0;
+	height: 90vh;
 }
-
 h1 {
-	font-size:72px;
+	font-size:4em;
 	letter-spacing: 15px;
+	/* margin-bottom: .5em; */
 }
-
-p {
-	font-size:22px;
-}
-
 nav a {
-	font-size: 16px;
-	text-align: left;
 	margin-right:75px;
 	margin-left: 75px;
 }
 
 a {
 	color: #888;
-	font-size:16px;
 	text-decoration: none;
 }
 
-img {
-	width: 100%;
-	}
-
 footer {
 	padding-bottom: 50px;
-	font-size: 16px;
 	text-align: left;
 }
