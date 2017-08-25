@@ -1,0 +1,42 @@
+body{
+	text-align: center;
+	background: url("https://static.pexels.com/photos/463252/pexels-photo-463252.jpeg");
+	background-size: cover;
+	color: #fff;
+	font-family: Avenir;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 50px;
+}
+
+h1 {
+	font-size:72px;
+	letter-spacing: 15px;
+}
+
+p {
+	font-size:22px;
+}
+
+nav a {
+	font-size: 16px;
+	text-align: left;
+	margin-right:75px;
+	margin-left: 75px;
+}
+
+a {
+	color: #888;
+	font-size:16px;
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+	}
+
+footer {
+	padding-bottom: 50px;
+	font-size: 16px;
+	text-align: left;
+}
