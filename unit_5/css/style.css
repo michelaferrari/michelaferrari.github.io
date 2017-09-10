@@ -1,0 +1,71 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+
+body {
+	color:#222;
+	font-family: "Avenir", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size:16px;
+}
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 100%;
+    text-align: center;
+    line-height: 20 px;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1 {
+	font-size:4em;
+	letter-spacing: 15px;
+	/* margin-bottom: .5em; */
+}
+
+h2 {
+	font-size:2em;
+	margin-left: 3em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+h3 {
+	margin-left: 3em;
+	padding: 1em;
+}
+
+p {
+	margin-left: 5em;
+	margin-right: 5em;
+	margin-bottom: 1em;
+}
+
+nav a {
+	margin-right:75px;
+	margin-left: 75px;
+}
+
+a {
+	color: #999;
+	text-decoration: none;
+}
+
+footer {
+	padding-bottom: 50px;
+	text-align: left;
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+div {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
