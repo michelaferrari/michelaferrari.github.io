@@ -1,0 +1,101 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+
+body {
+	color:#222;
+	font-family: "Avenir", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size:16px;
+}
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 100%;
+    text-align: center;
+    line-height: 20 px;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+h1 {
+	font-size:4em;
+	letter-spacing: 15px;
+	/* margin-bottom: .5em; */
+}
+
+h2 {
+	font-size:2em;
+	margin-left: 3em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+h3 {
+	margin-left: 3em;
+	padding: 1em;
+}
+
+nav a {
+	margin-right:75px;
+	margin-left: 75px;
+}
+
+a {
+	color: #999;
+	text-decoration: none;
+
+}
+
+a:hover{
+background-color: #aaaa
+}
+
+footer {
+	padding-bottom: 50px;
+	text-align: left;
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+div {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
