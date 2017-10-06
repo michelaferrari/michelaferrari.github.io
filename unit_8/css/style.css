@@ -1,0 +1,82 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+
+body{
+	color:#222;
+	font-family: "Avenir", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size:16px;
+}
+
+nav{
+    padding: 20px;
+    float: right;
+    width: 100%;
+    text-align: center;
+    line-height: 20 px;
+}
+
+header{
+    text-align: center;
+    background: url(../images/flowers.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 10em 0 0;
+    height: 90vh;
+}
+
+
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+h1{
+	font-size:4em;
+	letter-spacing: 15px;
+	margin-bottom: .5em;
+}
+
+h2{
+	font-size:2em;
+	margin-left: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+h3{
+	margin-left: 3em;
+	padding: 1em;
+}
+
+nav a{
+	margin-right:75px;
+	margin-left: 75px;
+}
+
+a{
+	color: #999;
+	text-decoration: none;
+
+}
+
+a:hover{
+color: #000000
+}
+
+footer {
+	padding-bottom: 50px;
+	text-align: left;
+    padding: 20px;
+}
+
+p{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+img{
+    float: left;
+}
