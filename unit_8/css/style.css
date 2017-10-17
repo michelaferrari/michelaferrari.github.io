@@ -41,14 +41,14 @@ h1{
 
 h2{
 	font-size:2em;
-	margin-left: 2em;
+	/* margin-left: 2em; */
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
 
 h3{
-	margin-left: 3em;
-	padding: 1em;
+	/* margin-left: 3em; */
+	margin-bottom: 1em;
 }
 
 nav a{
@@ -73,11 +73,47 @@ footer {
 }
 
 p{
-    margin-left: 2em;
-    margin-right: 2em;
+    /* margin-left: 2em; */
+    /* margin-right: 2em; */
+    margin-top: 1em;
 }
 
-img{
+#about img{
     float: left;
-    margin: 1em;
+    width: 50%;
+}
+.example {
+    width: 33.33%;
+    float: left;
+    margin: 0;
+    padding: 2em;
+}
+
+#work {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#about {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+#work p {
+    width: 400px;
+}
+@media only screen and (max-width: 860px) {
+	.example {
+		width:100%;
+	}
+}
+@media only screen and (max-width:700px) {
+	header {
+		background:#333;
+	}
 }
