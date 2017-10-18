@@ -23,16 +23,6 @@ header{
     height: 90vh;
 }
 
-
-.clearfix:after{
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
 h1{
 	font-size:4em;
 	letter-spacing: 15px;
@@ -47,7 +37,7 @@ h2{
 }
 
 h3{
-	/* margin-left: 3em; */
+	margin-top:1em;
 	margin-bottom: 1em;
 }
 
@@ -57,7 +47,7 @@ nav a{
 }
 
 a{
-	color: #999;
+	color: #888;
 	text-decoration: none;
 
 }
@@ -66,27 +56,36 @@ a:hover{
 color: #000000
 }
 
+p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 footer {
 	padding-bottom: 50px;
 	text-align: left;
     padding: 20px;
 }
 
-p{
-    /* margin-left: 2em; */
-    /* margin-right: 2em; */
-    margin-top: 1em;
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#about {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    padding-top: 2em;
 }
 
 #about img{
     float: left;
     width: 50%;
-}
-.example {
-    width: 33.33%;
-    float: left;
-    margin: 0;
-    padding: 2em;
 }
 
 #work {
@@ -94,26 +93,33 @@ p{
     margin: auto;
 }
 
-#about {
-    max-width: 800px;
-    width: 100%;
-    margin: auto;
-}
-
-img {
-    width: 100%;
-}
-
 #work p {
-    width: 400px;
+    width: 75%;
+    float: center;
 }
+
+.industrial-image {
+    width: 33.33%;
+    float: left;
+    margin: 0;
+    padding: 2em;
+}
+
+#happiness {
+    width: 75%;
+}
+
+#Fashtag {
+    width: 75%;
+}
+
 @media only screen and (max-width: 860px) {
-	.example {
+	.industrial-image {
 		width:100%;
 	}
 }
-@media only screen and (max-width:700px) {
-	header {
-		background:#333;
-	}
+@media only screen and (max-width:950px) {
+	a {
+		color: #fff;
+    }
 }
